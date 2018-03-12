@@ -28,7 +28,7 @@ def turn(board)
   num = gets.strip
   newnum = input_to_index(num)
   if valid_move?(board, newnum)
-    move(board, x)
+    move(board, newnum)
   else turn(board)
   end
 end
