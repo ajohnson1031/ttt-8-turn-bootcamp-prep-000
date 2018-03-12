@@ -28,6 +28,6 @@ def turn(board)
 end
 
 def input_to_index(n)
-  if(valid_move?(board, n))
+  index = n.to_i - 1
 end
 
