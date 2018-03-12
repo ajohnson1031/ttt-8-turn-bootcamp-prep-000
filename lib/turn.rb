@@ -32,5 +32,6 @@ def input_to_index(n)
 end
 
 def move(board, x, char="X")
-  
+  movenum = input_to_index(x)
+  usermove = board[movenum]
 end
