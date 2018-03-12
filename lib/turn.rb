@@ -25,9 +25,8 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  num = input_to_index(gets.strip)
-  if valid_move?(board, num)
-    move(board, num)
+  if valid_move?(board, input_to_index(gets.strip))
+    move(board, input_to_index(gets.strip))
     display_board(board)
   else turn(board)
   end
