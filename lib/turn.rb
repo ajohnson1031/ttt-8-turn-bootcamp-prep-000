@@ -27,4 +27,7 @@ def turn(board)
   puts "Please enter 1-9:"
 end
 
+def input_to_index(n)
+  if(valid_move?(board, n))
+end
 
