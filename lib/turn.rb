@@ -33,5 +33,5 @@ end
 
 def move(board, x, char="X")
   movenum = input_to_index(x)
-  usermove = board[movenum]
+  board[movenum] = char
 end
