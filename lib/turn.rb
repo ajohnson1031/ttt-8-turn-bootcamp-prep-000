@@ -35,6 +35,7 @@ end
 
 def input_to_index(n)
   index = n.to_i - 1
+  return index
 end
 
 def move(board, x, char="X")
