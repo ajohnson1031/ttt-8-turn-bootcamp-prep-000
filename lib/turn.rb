@@ -29,6 +29,7 @@ def turn(board)
   newnum = input_to_index(num)
   if valid_move?(board, newnum)
     move(board, newnum)
+    display_board(board)
   else turn(board)
   end
 end
